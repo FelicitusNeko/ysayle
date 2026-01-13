@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install
+DEPEND=media-libs/libpng:0 !sdl-legacy? ( media-libs/libsdl2 ) sdl-legacy? ( media-libs/libsdl ) !tremor? ( vorbis? ( media-libs/libvorbis ) ) tremor? ( media-libs/tremor ) !xmp? ( mikmod? ( media-libs/libmikmod ) ) !xmp? ( mikmod? ( !modplug? ( media-libs/libmikmod ) ) )
+DESCRIPTION=A text-based game creation system.
+EAPI=7
+HOMEPAGE=https://www.digitalmzx.com/
+INHERIT=desktop
+IUSE=mikmod modplug +rad -sdl-legacy -tremor vorbis +xmp
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libpng:0 !sdl-legacy? ( media-libs/libsdl2 ) sdl-legacy? ( media-libs/libsdl ) !tremor? ( vorbis? ( media-libs/libvorbis ) ) tremor? ( media-libs/tremor ) !xmp? ( mikmod? ( media-libs/libmikmod ) ) !xmp? ( mikmod? ( !modplug? ( media-libs/libmikmod ) ) )
+SLOT=0
+SRC_URI=https://vault.digitalmzx.com/download.php?latest=src&ver=2.92d -> megazeux-2.92d.tar.xz
+_eclasses_=desktop	7b6f6e9d65093966fbc8475399c5dd4e
+_md5_=d362571f76f7f319a4130647e6a3cea5
