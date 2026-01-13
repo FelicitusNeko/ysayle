@@ -8,7 +8,7 @@ inherit desktop
 
 DESCRIPTION="A text-based game creation system."
 HOMEPAGE="https://www.digitalmzx.com/"
-SRC_URI="https://vault.digitalmzx.com/download.php?latest=src&ver=${PV} -> ${P}.tar.xz"
+SRC_URI="https://www.digitalmzx.com/download.php?latest=src&ver=${PV} -> ${P}.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
