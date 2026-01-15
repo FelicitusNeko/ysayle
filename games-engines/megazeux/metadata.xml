@@ -5,14 +5,22 @@
 		<name>FelicitusNeko</name>
 		<email>kewlio-origin@simguy.net</email>
 	</maintainer>
-	<longdescription lang="en">
-		A text-based game creation system.
-	</longdescription>
+	<upstream>
+		<maintainer type="person">
+			<name>Alice Rowan</name>
+		</maintainer>
+		<remote-id type="github">AliceLR/megazeux</remote-id>
+		<bugs-to>https://github.com/AliceLR/megazeux/issues</bugs-to>
+		<changelog>https://github.com/AliceLR/megazeux/blob/master/docs/changelog.txt</changelog>
+	</upstream>
+	<longdescription lang="en"> MegaZeux is a game creation system (GCS) created by game developer
+		Alexis Janson in 1994. Originally a DOS program, in 2005 a multi-platform port was released
+		by Exophase. </longdescription>
 	<use>
 		<flag name="rad">Enable support for Reality Adlib Tracker modules</flag>
-		<flag name="sdl-legacy">Use libsdl instead of libsdl2</flag>
-		<flag name="sdl3">Use libsdl3 instead of libsdl2</flag>
-		<flag name="tremor">Use media-libs/tremor instead of media-libs/libvorbis</flag>
+		<flag name="sdl-legacy">Use <pkg>media-libs/libsdl</pkg> instead of <pkg>media-libs/libsdl2</pkg></flag>
+		<flag name="sdl3">Use <pkg>media-libs/libsdl3</pkg> instead of <pkg>media-libs/libsdl2</pkg></flag>
+		<flag name="tremor">Use <pkg>media-libs/tremor</pkg> instead of <pkg>media-libs/libvorbis</pkg></flag>
 		<flag name="xmp">Use libxmp for module playback (recommended!)</flag>
 	</use>
 </pkgmetadata>
