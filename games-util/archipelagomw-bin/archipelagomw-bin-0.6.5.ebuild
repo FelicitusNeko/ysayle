@@ -8,43 +8,20 @@ inherit desktop
 DESCRIPTION="Multi-game multiworld randomizer engine and server/client"
 HOMEPAGE="https://archipelago.gg/"
 SRC_URI="amd64? ( https://github.com/ArchipelagoMW/Archipelago/releases/download/${PV}/Archipelago_${PV}_linux-x86_64.tar.gz )"
-
 S="${WORKDIR}/Archipelago"
-
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="-* ~amd64"
-
-#IUSE="mtdev"
 RESTRICT="strip mirror"
-
-# RDEPEND="
-#     dev-python/certifi
-#     dev-python/colorama
-#     dev-python/cymem
-#     dev-python/cython
-#     dev-python/Kivy
-#     dev-python/jellyfish
-#     dev-python/jinja2
-#     dev-python/orjson
-#     dev-python/platformdirs
-#     dev-python/pyyaml
-#     dev-python/schema
-#     dev-python/typing-extensions
-#     dev-python/websockets
-#     dev-util/bsdiff
-#     x11-misc/xclip
-#     x11-misc/xsel
-#     mtdev? ( sys-libs/mtdev )
-# "
-# DEPEND="${RDEPEND}"
 
 MY_DEST=/opt/archipelago
 
 src_install() {
+    ebegin "copying to /opt"
     insinto "${MY_DEST}"
-    find "${S}" -maxdepth 1 -type f -exec doins {} \;
-    find "${S}" -maxdepth 1 -type d -exec doins -r {} \;
+    find "${S}/" -maxdepth 1 -type f -exec doins {} \;
+    find "${S}/" -mindepth 1 -maxdepth 1 -type d -exec doins -r {} \;
+    eend $?
 
     # this section taken from the PKGBUILD in the AUR
     ebegin "creating shims"
@@ -53,19 +30,22 @@ src_install() {
         file="${i##*/}"
         cat <<EOF >"${D}/usr/bin/${file}"
 #!/bin/bash
-cd /opt/Archipelago
+cd /opt/archipelago
 ./${file} "\$@"
 EOF
+        chmod +x "${D}/opt/archipelago/${file}"
         chmod +x "${D}/usr/bin/${file}"
     done < <(find "${S}" -maxdepth 1 -type f -name "Archipelago*" -executable -print0)
     eend $?
 
+    ebegin "creating desktop entry"
     newicon -s 512 data/icon.png archipelagomw.png
     make_desktop_entry --eapi9 \
         /opt/archipelago/ArchipelagoLauncher \
         -n "Archipelago Launcher" \
-        -i /usr/share/icons/hicolor/512x512/archipelagomw.png \
+        -i archipelagomw \
         -c "Game;" \
         -e "Keywords=multi-game;randomizer" \
         -e "Path=/opt/archipelago/"
+    eend $?
 }
