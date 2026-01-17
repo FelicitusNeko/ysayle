@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <name>FelicitusNeko</name>
+    <email>kewlio-origin@simguy.net</email>
+  </maintainer>
+  <upstream>
+    <maintainer type="person">
+      <name>Fabian Dill</name>
+    </maintainer>
+    <remote-id type="github">ArchipelagoMW/Archipelago</remote-id>
+    <doc>https://github.com/ArchipelagoMW/Archipelago/tree/main/docs</doc>
+    <bugs-to>https://github.com/ArchipelagoMW/Archipelago/issues</bugs-to>
+  </upstream>
+  <longdescription>Archipelago provides a generic framework for developing multiworld capability for
+    game randomizers. In all cases, presently, Archipelago is also the randomizer itself.</longdescription>
+  <use>
+    <flag name="mtdev">Pull in <pkg>sys-libs/mtdev</pkg> for multitouch support</flag>
+    <!-- <flag name="aspell">Uses <pkg>app-text/aspell</pkg> for spell checking. Requires an installed
+      dictionary from <cat>app-dicts</cat></flag>
+    <flag name="flag">Description of how USE='flag' affects this package</flag>
+    <flag name="kernel_linux"> Description of how KERNEL="linux" affects this package </flag> -->
+  </use>
+</pkgmetadata>
