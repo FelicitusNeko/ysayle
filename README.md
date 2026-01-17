@@ -8,6 +8,7 @@ To add as an overlay (easy method):
 ## Wish list
 
 - Missing packages ­— as far as I know, these don't exist on any repo
+  - Bizhawk
   - Chatty (Twitch chat client)
   - F-Chat Horizon
   - Fightcade
