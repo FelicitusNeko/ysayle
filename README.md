@@ -7,7 +7,8 @@ To add as an overlay (easy method):
 
 ## Wish list
 
-- Missing packages
+- Missing packages ­— as far as I know, these don't exist on any repo
+  - Chatty (Twitch chat client)
   - F-Chat Horizon
   - Fightcade
   - Imageboard Grabber
