@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <name>FelicitusNeko</name>
+    <email>kewlio-origin@simguy.net</email>
+  </maintainer>
+  <upstream>
+    <maintainer>
+      <name>Max Stepin</name>
+    </maintainer>
+    <remote-id type="sourceforge">gif2apng</remote-id>
+    <bugs-to>https://sourceforge.net/p/gif2apng/bugs/</bugs-to>
+  </upstream>
+</pkgmetadata>
