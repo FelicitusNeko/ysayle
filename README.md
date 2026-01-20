@@ -17,5 +17,8 @@ To add as an overlay (easy method):
   - OpenDeck
   - Ruffle nightly
   - XIVLauncher.Core RankynBass fork
+- Packages to improve
+  - `games-util/poptracker`
+    - Not keyworded because it uses `git-r3.eclass`, necessary due to submodules
 
 *"I am neither a saint nor a savior - just another sinner. Yet I will not forsake this cause. I cannot. I will see this cycle broken and peace restored."*
