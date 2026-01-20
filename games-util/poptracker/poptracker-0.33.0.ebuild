@@ -13,6 +13,8 @@ DESCRIPTION="Universal, scriptable randomizer tracking solution"
 HOMEPAGE="https://github.com/black-sliver/PopTracker"
 
 LICENSE="GPL-3"
+# third-party licenses
+LICENSE+="MIT Boost-1.0 BSD-2 ZLIB"
 SLOT="0"
 RESTRICT="mirror strip"
 
