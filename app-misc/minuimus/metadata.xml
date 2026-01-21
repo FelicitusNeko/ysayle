@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<!--
+  This is the example metadata file.
+  The root element of this file is <pkgmetadata>. Within this element a
+  number of subelements are allowed, the most common being maintainer.
+
+  For a full description look at:
+  https://devmanual.gentoo.org/ebuild-writing/misc-files/metadata/
+
+  Before committing, please remove the comments from this file. They are
+  not relevant for general metadata.xml files.
+-->
+<pkgmetadata>
+    <maintainer type="person">
+        <name>FelicitusNeko</name>
+        <email>kewlio-origin@simguy.net</email>
+    </maintainer>
+    <upstream>
+        <maintainer>
+            <name>Sen Jiang</name>
+        </maintainer>
+        <bugs-to>https://github.com/JayXon/Leanify/issues</bugs-to>
+        <changelog>https://github.com/JayXon/Leanify/blob/master/CHANGELOG.md</changelog>
+        <remote-id type="github">JayXon/Leanify</remote-id>
+    </upstream>
+    <longdescription>Minuimus is a file optimiser utility script: You point it at a file, and it
+        makes the file smaller without compromising the file contents. File optimisers are able to
+        do this using a variety of file-specfic optimisations, most of which involve decompressing
+        data within a compressed file and recompressing it in a more efficient manner. The process
+        could be compared directly to extracting a ZIP file, then recompressing it at the most
+        demanding setting. It uses many of the same techniques used by other optimisers such as
+        Papa's Best Optimizer.</longdescription>
+    <use>
+        <flag name="extra">Pulls in additional optional tools</flag>
+    </use>
+</pkgmetadata>
