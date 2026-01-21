@@ -13,7 +13,6 @@ To add as an overlay (easy method):
   - F-Chat Horizon
   - Fightcade
   - Imageboard Grabber
-  - Minuimus
   - OpenDeck
   - Ruffle nightly
   - XIVLauncher.Core RankynBass fork
