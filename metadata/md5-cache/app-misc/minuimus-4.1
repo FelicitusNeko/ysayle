@@ -1,0 +1,14 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install prepare
+DEPEND=app-arch/advancecomp app-arch/brotli || ( app-arch/p7zip app-arch/7zip ) app-arch/unrar app-arch/zip app-text/mupdf app-text/poppler app-text/qpdf dev-lang/perl media-gfx/gif2apng media-gfx/gif2png media-gfx/gifsicle media-gfx/imagemagick media-gfx/jpegoptim media-gfx/optipng media-libs/libwebp extra? ( app-arch/leanify app-arch/zpaq media-libs/jbigkit )
+DESCRIPTION=Multipurpose lossless file optimizer
+EAPI=8
+HOMEPAGE=https://birds-are-nice.me/software/minuimus.html
+IUSE=extra
+KEYWORDS=-* ~amd64
+LICENSE=GPL-3
+RDEPEND=app-arch/advancecomp app-arch/brotli || ( app-arch/p7zip app-arch/7zip ) app-arch/unrar app-arch/zip app-text/mupdf app-text/poppler app-text/qpdf dev-lang/perl media-gfx/gif2apng media-gfx/gif2png media-gfx/gifsicle media-gfx/imagemagick media-gfx/jpegoptim media-gfx/optipng media-libs/libwebp extra? ( app-arch/leanify app-arch/zpaq media-libs/jbigkit )
+RESTRICT=strip mirror
+SLOT=0
+SRC_URI=https://birds-are-nice.me/software/minuimus.zip -> minuimus-4.1.zip
+_md5_=24524a2b488b0d35eae57627138c90e2
