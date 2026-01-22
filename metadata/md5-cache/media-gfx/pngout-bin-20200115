@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Lossless PNG compressor
+EAPI=8
+HOMEPAGE=https://www.jonof.id.au/kenutils
+KEYWORDS=-* ~amd64 ~arm ~arm64 ~x86
+LICENSE=all-rights-reserved
+RESTRICT=strip mirror
+SLOT=0
+SRC_URI=https://www.jonof.id.au/files/kenutils/pngout-20200115-linux.tar.gz
+_md5_=18d570adbac0be073e3333c5987fab72
