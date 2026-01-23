@@ -16,6 +16,8 @@ To add as an overlay (easy method):
   - OpenDeck
   - Ruffle nightly
   - XIVLauncher.Core RankynBass fork
+  - ZQuest Classic
+    - Breaks both network and filesystem sandboxes to build
 - Packages to improve
   - `games-util/poptracker`
     - Not keyworded because it uses `git-r3.eclass`, necessary due to submodules
