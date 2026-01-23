@@ -13,7 +13,9 @@ To add as an overlay (easy method):
   - F-Chat Horizon
   - Fightcade
   - Imageboard Grabber
+    - uses Node in its build environment
   - OpenDeck
+    - uses Deno in its build environment
   - Ruffle nightly
   - XIVLauncher.Core RankynBass fork
   - ZQuest Classic
