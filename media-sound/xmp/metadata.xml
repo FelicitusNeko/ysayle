@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<!--
+  This is the example metadata file.
+  The root element of this file is <pkgmetadata>. Within this element a
+  number of subelements are allowed, the most common being maintainer.
+
+  For a full description look at:
+  https://devmanual.gentoo.org/ebuild-writing/misc-files/metadata/
+
+  Before committing, please remove the comments from this file. They are
+  not relevant for general metadata.xml files.
+-->
+<pkgmetadata>
+    <maintainer type="person">
+        <name>FelicitusNeko</name>
+        <email>kewlio-origin@simguy.net</email>
+    </maintainer>
+    <upstream>
+        <maintainer>
+            <name>Özkan Sezer</name>
+        </maintainer>
+        <maintainer>
+            <name>Alice Rowan</name>
+        </maintainer>
+        <remote-id type="github">libxmp/xmpcli</remote-id>
+        <remote-id type="sourceforge">xmp-cli</remote-id>
+        <bugs-to>https://github.com/libxmp/xmp-cli/issues</bugs-to>
+    </upstream>
+    <longdescription> The Extended Module Player, or xmp, is a portable command-line module player.
+        Xmp plays many mainstream and obscure module formats including Protracker (MOD), Scream
+        Tracker 3 (S3M), Fast Tracker II (XM), and Impulse Tracker (IT). </longdescription>
+</pkgmetadata>
