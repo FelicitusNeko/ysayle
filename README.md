@@ -11,6 +11,7 @@ To add as an overlay (easy method):
   - Bizhawk
   - Chatty (Twitch chat client)
   - F-Chat Horizon
+    - ebuild exists, but is outdated
   - Fightcade
   - Imageboard Grabber
     - uses Node in its build environment
