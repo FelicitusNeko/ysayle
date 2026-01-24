@@ -1,0 +1,12 @@
+DEFINED_PHASES=-
+DEPEND=media-libs/libxmp
+DESCRIPTION=CLI tracker module player
+EAPI=8
+HOMEPAGE=https://xmp.sourceforge.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libxmp
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/libxmp/xmp-cli/releases/download/xmp-4.2.0/xmp-4.2.0.tar.gz
+_md5_=1343ffba3ded7f2f7199028b4974d70f
