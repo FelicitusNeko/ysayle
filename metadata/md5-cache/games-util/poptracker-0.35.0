@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=media-libs/libsdl2 media-libs/sdl2-image media-libs/sdl2-ttf dev-libs/openssl
+DESCRIPTION=Universal, scriptable randomizer tracking solution
+EAPI=8
+HOMEPAGE=https://github.com/black-sliver/PopTracker
+INHERIT=git-r3 desktop
+LICENSE=GPL-3 MIT Boost-1.0 BSD-2 ZLIB
+PROPERTIES=live
+RDEPEND=media-libs/libsdl2 media-libs/sdl2-image media-libs/sdl2-ttf dev-libs/openssl
+RESTRICT=mirror strip
+SLOT=0
+_eclasses_=git-r3	7b584b5dc33e3bc66ff5b9271bf41764	desktop	26d57169ca094c04be416993844ec8bc
+_md5_=d2b9b969fed1f1b5aec3c57dca9e683b
