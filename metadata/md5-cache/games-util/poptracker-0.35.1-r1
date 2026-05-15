@@ -1,0 +1,14 @@
+DEFINED_PHASES=install
+DEPEND=media-libs/libsdl2 media-libs/sdl2-image media-libs/sdl2-ttf dev-libs/openssl
+DESCRIPTION=Universal, scriptable randomizer tracking solution
+EAPI=8
+HOMEPAGE=https://github.com/black-sliver/PopTracker
+INHERIT=desktop
+KEYWORDS=~amd64
+LICENSE=GPL-3 MIT Boost-1.0 BSD-2 ZLIB
+RDEPEND=media-libs/libsdl2 media-libs/sdl2-image media-libs/sdl2-ttf dev-libs/openssl
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/black-sliver/PopTracker/releases/download/v0.35.1/poptracker_0-35-1_full-source.tar.xz -> poptracker-0.35.1.tgz
+_eclasses_=desktop	26d57169ca094c04be416993844ec8bc
+_md5_=bc03928741dbc32a228fa73dc6ab1c81
