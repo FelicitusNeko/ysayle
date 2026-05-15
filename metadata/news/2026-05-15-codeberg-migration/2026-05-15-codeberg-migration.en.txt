@@ -1,0 +1,12 @@
+Title: Migration to Codeberg
+Author: FelicitusNeko
+Posted: 2026-05-15
+Revision: 1
+News-Item-Format: 2.0
+
+Please note that the Ysayle repository is migrating to Codeberg. For the
+time being, GitHub will continue to be used as a mirror, but this could
+change in the future, and a news item will be added if it does.
+
+The sync URI should be updated to:
+https://codeberg.org/FelicitusNeko/ysayle.git
