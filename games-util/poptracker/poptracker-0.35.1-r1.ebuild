@@ -3,19 +3,19 @@
 
 EAPI=8
 
-inherit git-r3 desktop
+inherit desktop
 
-EGIT_REPO_URI="https://github.com/black-sliver/PopTracker.git"
-EGIT_COMMIT="v${PV}"
-EGIT_SUBMODULES=( '*' '-examples/template_pack' )
+URI_PV=$(ver_rs 1-3 '-')
 
 DESCRIPTION="Universal, scriptable randomizer tracking solution"
 HOMEPAGE="https://github.com/black-sliver/PopTracker"
+SRC_URI="https://github.com/black-sliver/PopTracker/releases/download/v${PV}/${PN}_${URI_PV}_full-source.tar.xz -> ${P}.tgz"
 
 LICENSE="GPL-3"
 # third-party licenses
 LICENSE+=" MIT Boost-1.0 BSD-2 ZLIB"
 SLOT="0"
+KEYWORDS="~amd64"
 RESTRICT="mirror strip"
 
 RDEPEND="
@@ -25,6 +25,8 @@ RDEPEND="
 	dev-libs/openssl
 "
 DEPEND="${RDEPEND}"
+
+S="${WORKDIR}/PopTracker"
 
 src_install() {
 	dobin "${S}/build/linux-x86_64/${PN}"
