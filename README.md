@@ -2,7 +2,7 @@
 
 To add as an overlay (easy method):
 - Install `eselect-repository`
-- Run `eselect repository add ysayle git https://github.com/FelicitusNeko/ysayle.git`
+- Run `eselect repository add ysayle git https://codeberg.org/FelicitusNeko/ysayle.git`
 - Sync
 
 ## Wish list
@@ -15,8 +15,6 @@ To add as an overlay (easy method):
   - Fightcade
   - Imageboard Grabber
     - uses Node in its build environment
-  - OpenDeck
-    - uses Deno in its build environment
   - Ruffle nightly
   - XIVLauncher.Core RankynBass fork
   - ZQuest Classic
