@@ -19,8 +19,5 @@ To add as an overlay (easy method):
   - XIVLauncher.Core RankynBass fork
   - ZQuest Classic
     - Breaks both network and filesystem sandboxes to build
-- Packages to improve
-  - `games-util/poptracker`
-    - Not keyworded because it uses `git-r3.eclass`, necessary due to submodules
 
 *"I am neither a saint nor a savior - just another sinner. Yet I will not forsake this cause. I cannot. I will see this cycle broken and peace restored."*
