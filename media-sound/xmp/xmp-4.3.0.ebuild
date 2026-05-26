@@ -11,6 +11,6 @@ KEYWORDS="~amd64 ~x86"
 RESTRICT="mirror"
 
 RDEPEND="
-	media-libs/libxmp
+	>=media-libs/libxmp-4.4.0
 "
 DEPEND="${RDEPEND}"
