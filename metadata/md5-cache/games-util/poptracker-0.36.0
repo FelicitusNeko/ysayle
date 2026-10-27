@@ -11,4 +11,4 @@ RESTRICT=mirror strip
 SLOT=0
 SRC_URI=https://github.com/black-sliver/PopTracker/releases/download/v0.36.0/poptracker_0-36-0_full-source.tar.xz -> poptracker-0.36.0.tgz
 _eclasses_=desktop	e447b5f77146d69797e9f03ff177f3f1
-_md5_=bc03928741dbc32a228fa73dc6ab1c81
+_md5_=41f9aa61948b7137d3fa843c94ee2435

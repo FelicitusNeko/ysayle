@@ -11,6 +11,8 @@ DESCRIPTION="Universal, scriptable randomizer tracking solution"
 HOMEPAGE="https://github.com/black-sliver/PopTracker"
 SRC_URI="https://github.com/black-sliver/PopTracker/releases/download/v${PV}/${PN}_${URI_PV}_full-source.tar.xz -> ${P}.tgz"
 
+S="${WORKDIR}/PopTracker"
+
 LICENSE="GPL-3"
 # third-party licenses
 LICENSE+=" MIT Boost-1.0 BSD-2 ZLIB"
@@ -25,8 +27,6 @@ RDEPEND="
 	dev-libs/openssl
 "
 DEPEND="${RDEPEND}"
-
-S="${WORKDIR}/PopTracker"
 
 src_install() {
 	dobin "${S}/build/linux-x86_64/${PN}"

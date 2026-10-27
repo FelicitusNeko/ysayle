@@ -1,0 +1,15 @@
+BDEPEND=>=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
+DEFINED_PHASES=compile configure install postinst postrm test
+DEPEND=media-libs/libsdl2 media-libs/sdl2-image media-libs/sdl2-ttf dev-libs/openssl
+DESCRIPTION=Universal, scriptable randomizer tracking solution
+EAPI=8
+HOMEPAGE=https://github.com/black-sliver/PopTracker
+INHERIT=desktop meson xdg-utils
+KEYWORDS=~amd64
+LICENSE=GPL-3 MIT Boost-1.0 BSD-2 ZLIB
+RDEPEND=media-libs/libsdl2 media-libs/sdl2-image media-libs/sdl2-ttf dev-libs/openssl
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/black-sliver/PopTracker/releases/download/v0.36.0/poptracker_0-36-0_full-source.tar.xz -> poptracker-0.36.0.tgz
+_eclasses_=desktop	e447b5f77146d69797e9f03ff177f3f1	toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	multiprocessing	45d0620f25c2f063ad6276ecd9ed9399	ninja-utils	d063ea1900a793f93eb095010d6d9156	eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	python-utils-r1	025367880f07ae6444e6035a49db0dab	sysroot	4c36abaf94ebd3ab32f8abea9a444121	rust-toolchain	76468983281b0a7fc167ca224f84ecfd	meson	4d3a148e5931f2930e970884bcb4c77d	xdg-utils	42869b3c8d86a70ef3cf75165a395e09
+_md5_=ca0b813e99bc05b32e546918c2d00215
