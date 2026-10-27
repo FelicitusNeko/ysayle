@@ -33,9 +33,9 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}"
 
-PATCHES=(
-	"${FILESDIR}/${PV}-gcc15.patch"
-)
+# PATCHES=(
+# 	"${FILESDIR}/${PV}-gcc15.patch"
+# )
 
 src_configure() {
 	append-flags -D_GNU_SOURCE \
