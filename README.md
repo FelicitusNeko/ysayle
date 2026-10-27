@@ -12,11 +12,11 @@ To add as an overlay (easy method):
   - Chatty (Twitch chat client)
   - F-Chat Horizon
     - ebuild exists, but is outdated
+    - uses Node in its build enviroment
   - Fightcade
   - Imageboard Grabber
     - uses Node in its build environment
   - Ruffle nightly
-  - XIVLauncher.Core RankynBass fork
   - ZQuest Classic
     - Breaks both network and filesystem sandboxes to build
 
